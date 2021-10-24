@@ -55,30 +55,36 @@ body {
 }
 
 .vizual {
-    height: 440px;
-    width: 335px;
+    /*height: 440px;
+    width: 335px;*/
+    width: 50%;
+    height: 100%;
     border-radius: 30px 0 0 30px;
     background: linear-gradient(#06d7c1, #50cc49);
     position: relative;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .detaily {
     position: absolute;
     left: 335px;
     top: 30px;
-    border-right: 30px solid white;
-    border-left: 30px solid white;
+    padding-left: 30px;
+    padding-right: 30px;
+    /*border-right: 30px solid white;
+    border-left: 30px solid white;*/
 }
 
 .logo {
-    padding: 30px 0 30px 30px;
+    padding: 30px 0 30px 0;
 }
 
 .slogan {
-    padding-left: 30px;
     color: #f5f5f5;
     font-size: 16px;
     font-weight: 500;
+    margin: 0;
 }
 
 .cenovka {
@@ -90,23 +96,25 @@ body {
 
 .cena {
     font-size: 28px;
-    font-weight: 500px;
+    font-weight: 500;
     text-align: right;
 }
 
 .zaruka {
     font-size: 12px;
-    font-weight: 400px;
+    font-weight: 400;
 }
 
 .bota {
     position: absolute;
     right: -2px;
+    bottom: 10px;
 }
 
 .nazev {
     font-size: 20px;
     font-weight: 500;
+    text-transform: uppercase;
     margin: 0;
 }
 
@@ -126,7 +134,7 @@ body {
     padding-top: 30px;
 }
 
-li {
+.velikosti li {
     display: inline;
     padding: 10px;
 }
@@ -142,13 +150,14 @@ li {
 }
 
 .akce {
+    position: absolute;
+    bottom: -95px;
+    padding-left: 30px;
     background-color: #f15f42;
     height: 50px;
     width: 120px;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    position: absolute;
-    bottom: -95px;
 }
 
 .tlacitko {
@@ -157,6 +166,7 @@ li {
     text-decoration: none;
     position: absolute;
     top: 17px;
-    left: 25px;
+    left: 23px;
     margin: 0;
+    background-color: #f15f42;
 }

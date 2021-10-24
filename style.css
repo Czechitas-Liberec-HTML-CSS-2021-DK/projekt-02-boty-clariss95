@@ -153,11 +153,14 @@ body {
     position: absolute;
     bottom: -95px;
     padding-left: 30px;
-    background-color: #f15f42;
     height: 50px;
     width: 120px;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.akce div {
+    background-color: #f15f42;
 }
 
 .tlacitko {
@@ -168,5 +171,4 @@ body {
     top: 17px;
     left: 23px;
     margin: 0;
-    background-color: #f15f42;
 }
